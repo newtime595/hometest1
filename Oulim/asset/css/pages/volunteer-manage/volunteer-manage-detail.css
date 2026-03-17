@@ -1,0 +1,42 @@
+.l-container {
+    padding: 100px 0 140px;
+}
+
+.p-volunteer-manage-detail_header {
+    position: relative;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.p-volunteer-manage-detail_header .c-button-group{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.p-volunteer-manage-detail_header 
+.c-button--secondary{
+  background-color: #f2f2f2;
+  color: #666;
+}
+
+/* 페이지네이션 영역 */
+.l-container .c-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px auto 0;
+    width: fit-content;
+}
+
+.c-button--volunteer-manage-detail {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 52px;
+}
+
+button:disabled{
+  opacity:0.5;
+  cursor:not-allowed;
+}
